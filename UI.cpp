@@ -39,10 +39,14 @@ void UI::run() {
 }
 void UI::printMeniu() {
 	cout << "Simulare tonomat dulciuri\n";
-	cout << "1-> Adauga un produs\n";
-	cout << "2-> Cumpara un produs\n";
-	cout << "3-> Afiseaza produsele\n";
-	cout << "0-> Iesire\n";
+	cout << "\n ";
+	cout << "Produsele disponibile in tonomatul de dulciuri sunt: (Cod/Denumire/Pret)\n";
+	cout << "\n 1 Croissant 2.5\n 2 Suc 3.5\n 3 Ciocolata 6.5\n";
+	cout << "\n";
+	cout << "1.Adauga un produs\n";
+	cout << "2.Cumpara un produs\n";
+	cout << "3.Afiseaza produsele\n";
+	cout << "0.Iesire\n";
 
 }
 void UI::addProdus() {
@@ -56,7 +60,7 @@ void UI::buyProdus() {
 	int suma;
 	cout << "Alegeti produsul (cod) ";
 	cin >> cod;
-	cout << "Introduceti banii pe care ii aveti la dispozitie :) ";
+	cout << "Introduceti banii :) ";
 	cin >> suma;
 	this->c->buyProdus(cod, suma);
 }

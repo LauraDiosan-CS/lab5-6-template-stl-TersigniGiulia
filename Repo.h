@@ -46,7 +46,7 @@ public:
 
 		double rest = insertedMoney - item.getPret();
 		if (rest < 0) {
-			cout << "Nu s-au introdus suficienti bani. Incearca din nou :)\n";
+			cout << "Nu ai introdus suficienti bani. Incearca din nou :)\n";
 			return;
 		}
 
@@ -65,7 +65,7 @@ public:
 			nr_monezi_zece += calcNumarMonezi(rest - nr_monezi_cincizeci * 0.5, 0.1);
 			disp_10 = zece.getNumar() - nr_monezi_zece;
 			if (disp_10 < 0) {
-				cout << "Ne pare rau :( Aparatul nu poate da restul corespunzator\n";
+				cout << "Ne pare rau :( Aparatul nu iti poate da restul corespunzator\n";
 				return;
 			}
 			else {
