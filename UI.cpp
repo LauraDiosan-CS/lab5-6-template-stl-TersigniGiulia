@@ -39,9 +39,6 @@ void UI::run() {
 }
 void UI::printMeniu() {
 	cout << "Simulare tonomat dulciuri\n";
-	cout << "\n ";
-	cout << "Produsele disponibile in tonomatul de dulciuri sunt: (Cod/Denumire/Pret)\n";
-	cout << "\n 1 Croissant 2.5\n 2 Suc 3.5\n 3 Ciocolata 6.5\n";
 	cout << "\n";
 	cout << "1.Adauga un produs\n";
 	cout << "2.Cumpara un produs\n";
